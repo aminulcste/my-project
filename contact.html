@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<link rel="stylesheet" href="style.css">
+	
+	
+	<title>contact</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html" target="blank">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html" target="blank">COURSE</a></li>
+					<li><a href="blog.html" target="blank">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+				
+			</div>
+			
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<h1>Contact Us</h1>
+		
+	</section>
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82238840905!2d90.27923608556918!3d23.780887458453215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8abd1986c19%3A0x14e06df6918d8844!2sBangladesh%20National%20Parliament!5e0!3m2!1sen!2sbd!4v1654429992795!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+
+					<span>
+						<h5>+48937543</h5>
+						<p>Shere Bangla Nagar,Mirpur,Dhaka</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+3467826</h5>
+						<p>Monday to Friday</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>aminulashik182gmail.com</h5>
+						<p>Email us your query</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="form-handler.php" method="post">
+					<input type="text" name="name" placeholder="enter your name" required>
+					<input type="email" name="email" placeholder="enter your email" required>
+					<input type="text" name="subject" placeholder="enter your subject" required>
+					<textarea rows="8" name="message" placeholder="message" required></textarea>
+					<button type="submit" class="hero-btn red-btn">send message</button>
+				</form>
+			</div>
+		</div>
+		
+	</section>
+	
+	
+
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure facilis voluptates doloremque modi debitis placeat eius </p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+
+			</div>
+			<i class="fa fa-copyright" aria-hidden="true"> Copyright-2022 Aminul Islam</i>
+			
+		</section>
+
+
+
+
+
+	<script>
+		var	navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+		}
+	</script>
+
+	
+</body>
+</html>
